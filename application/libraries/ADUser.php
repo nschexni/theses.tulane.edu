@@ -10,11 +10,36 @@ class ADUser {
             $this->ad = new adLDAP();
 		$this->ad->connect();
                 
-		if(!$params['user']){
-			throw new Exception('Must supply a username');
-		}
-
+//		if(!$params['user']){
+//			throw new Exception('Must supply a username');
+//		}
+                //this is an array returned from the adLDAP class
 		$this->username = $params['user'];
+                //create variable $user
+                $user = $this->username;
+                
+                //method to remove @something.xxx if supplied
+                function clean_user($user){
+                    $email_test = strstr($user, '@');
+                    if ($user == ''){
+                        die( "You must supply a username!");
+                    }
+                    //check to see if $user has an @ symbol
+                    else if ($email_test == true){
+                        //explode string at @ symbol
+                        $user = explode('@', $user);
+                        //take first part of array
+                        $user = $user[0];
+                    }
+                    return $user;
+                }
+                
+                $this->username = clean_user($params['user']);
+                
+                
+                     
+                
+                
 
 		if(@($params['passwd'])){
 			$this->auth($params['passwd']);

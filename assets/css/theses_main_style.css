@@ -36,7 +36,7 @@ margin:0 0 0 0;
 
 .tdl_search_form label{
 font-weight:bold;
-font-size:1.2em;
+font-size:1.5em;
 color:#224568;
 }
 
@@ -73,7 +73,7 @@ color: #224568;
 }
 
 .school_list_column{
-width:40%;
+width:42%;
 float:left;
 padding:20px;
 }
@@ -94,6 +94,7 @@ color: #224568;
 
 .school_list_column ul {padding:5px; list-style:none; margin:20px 0 0 0;}
 .school_list_column ul li {padding:20px 0 35px 0; height:30px; border-bottom:1px dotted #ddd;}
+.school_list_column ul li:nth-child(6){border-bottom:none;}
 
 .school_list_column ul a:hover li {background-color:transparent;}
  
@@ -129,7 +130,7 @@ font-weight:normal;
 }
 
 #tdl_hp_right_side ul li {
-  margin: 0 10px 5px 0;
+  margin: 6px 10px 0 0;
   list-style:none;
   text-indent:-15px;
   margin-left:2px;
@@ -139,14 +140,14 @@ font-weight:normal;
   content: "\00BB";
   padding: 0 5px 0 2px;
   color: #7f0f00;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 
 .link_box_container {
   width: 300px;
   margin: 0 0 0 5px;
-  background: #f7faf3 url('/assets/img/common/gibson_gradient.png') top repeat-x;
+  background: #e5f2ff url('/assets/img/common/audubon_gradient.png') top repeat-x;
   border:1px solid #ccc;
 border-top:none;
 }
@@ -154,22 +155,21 @@ border-top:none;
 
 .link_box_container h3{
   color: #7f0f00;
-  font-size: 1.7em;
+  font-size: 1.3em;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 10px 0 5px 0;
-  padding: 2px 0 2px 0;
+  margin: 8px 0 6px 0;
+  padding: 2px 0 0 0;
   text-indent: 10px;
   border-top: 3px solid;
   border-bottom:1px solid #ccc;
 }
 
 .default_icon {
-  width: 24px;
-  height: 24px;
-  margin: -2px 0 0 -5px;
+  width: 16px;
+  height: 16px;
+  margin: -4px 4px 0 2px;
   padding: 0;
-  border-radius: 2px;
 }
 
 

@@ -112,8 +112,8 @@ color:#224568;
 	background:url('/assets/img/common/topHover_blue.gif'); 
         color:#224568;
 }
-
-.sf-menu li.nav_top_level:nth-child(2){border-right:1px solid #fff;}
+.sf-menu li.nav_top_level{border-right:1px solid #fff;}
+.sf-menu li.nav_top_level a{border:none;}
 
 .sf-menu.services{
 background:none;

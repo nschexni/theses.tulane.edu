@@ -11,9 +11,6 @@ class Home extends CI_Controller{
             //loads Elements Class
             $this->load->library('Elements');
             
-            //loads Common Class
-            $this->load->library('Common');
-            
             //load Cdm_custom_query Model
             $this->load->model('Cdm_queries');
             

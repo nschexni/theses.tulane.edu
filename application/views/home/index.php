@@ -1,8 +1,6 @@
     <div id ="content_wrapper">
-
-            <!-- <h1>Theses &amp; Dissertations Archive</h1> -->
             <p class="etd_desc">
-                The Theses &amp; Dissertations Archive allows for the submission and accessing of theses and dissertations at Tulane University.  
+                The <strong>Theses &amp; Dissertations Archive</strong> allows for the submission and accessing of theses &amp; dissertations at Tulane University.  
             </p>
             
             <div id="tdl_search_area">
@@ -17,7 +15,7 @@
                           onsubmit="javascript:if(document.simplesearchform.CISOBOX1.value==''){alert('Enter a valid search term.');return false;}else{dmTextCookie(document.simplesearchform.CISOBOX1);return true;}"
                           target="_blank"
                           >  
-                            <label>Search Theses and Dissertations:</label>  
+                            <label>Search Theses &amp; Dissertations:</label>  
                                 <input type="hidden" name="CISOOP1" value="any" />
                                 <input type="hidden" name="CISOFIELD1" value="CISOSEARCHALL"/>
                                 <input type="hidden" name="CISORESTMP" value="results.php"/>
@@ -173,15 +171,20 @@
         <div id="tdl_hp_right_side">     
             <div id="links_area">
                 <div class="link_box_container">
-                    <h3>Submission</h3>
+                    <h3>
+                        <img src="<?=  base_url();?>assets/img/icons/icon_inbox.png" class="default_icon" alt="Submit your Thesis or Dissertation" /> 
+                        Submit</h3>
                         <ul>
-                            <li><a href="<?=base_url()?>forms/td_submit">Submit Thesis | Dissertation</a></li>
+                            <li><a href="<?=base_url();?>forms/td_submit">
+                                    Submit Thesis | Dissertation</a></li>
                     </ul>
                 </div>
 
                 
                 <div class="link_box_container">
-                    <h3>Helpful Links</h3>
+                    <h3>
+                        <img src="<?=  base_url();?>assets/img/icons/icon_signpost.png" class="default_icon" alt="Helpful links" />
+                        Helpful Links</h3>
                         <ul>
                             <li>
                                 <a href="http://tulane.edu/sse/academics/graduate/upload/guidelines_theses_dissertations.pdf" target="_blank">
@@ -202,7 +205,9 @@
                 </div>                
                 
                 <div class="link_box_container">
-                    <h3>Contacts</h3>
+                    <h3>
+                        <img src="<?=base_url();?>assets/img/icons/icon_conversation.png" class="default_icon" alt="Contacts" />
+                        Contacts</h3>
                     <ul>
                         <li><a href="http://tulane.edu/ogps/contact.cfm" target="_blank">Office of Graduate &amp; Postdoctoral Studies</a></li>
                         <li><a href="http://digitallibrary.tulane.edu/about/staff" target="_blank">Tulane Digital Library</a></li>
