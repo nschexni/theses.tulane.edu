@@ -1,0 +1,371 @@
+/* Homepage Style */
+
+#content_wrapper{
+width:97%;
+margin:20px 20px 20px 20px;
+}
+
+h1{
+margin:20px 0 0 0;
+}
+
+p.etd_desc{
+width:60%;
+margin:10px;
+  font-family:Arial, san-serif;
+  padding: 30px 0 0 0;
+  font-size:1.4em;
+  font-weight:500;
+  color:#555;
+  line-height:1.4em;
+}
+
+#content_wrapper form{margin:0; padding:0;}
+
+        
+#tdl_search_area{
+width:65%;
+background:#fff url(/assets/img/home/hp_search_area.gif) no-repeat;
+float:left;
+margin:0 0 0 0;
+}
+
+.tdl_search_form{
+
+}
+
+.tdl_search_form label{
+font-weight:bold;
+font-size:1.2em;
+color:#224568;
+}
+
+
+#tdl_hp_search_everything{
+width:85%;
+margin:50px 10px 10px 20px;
+padding:20px 0 10px 10px;
+border-bottom:1px dotted #ccc;
+}
+
+input.search_all_etd{
+width:70%;
+font-size:1.4em;
+
+}
+
+#tdl_search_form_browse_line{
+float:left;
+width:85%;
+margin:5px 10px 5px 20px;
+padding:5px 0 15px 10px;
+border-bottom:1px dotted #ccc;
+}
+
+.tdl_hp_browse{
+float:left;
+margin:0 20px 0 0;
+padding:0;
+}
+
+.tdl_standard_submit{
+color: #224568;
+}
+
+.school_list_column{
+width:40%;
+float:left;
+padding:20px;
+}
+
+
+
+.school_list_column h3 {
+display:block;
+font-weight:normal; 
+font-size:1.4em;
+line-height:1.2em; 
+margin:-34px 0 0 40px; 
+color: #224568;
+}
+
+.dept_icon{width:32px; height: 32px;}      
+
+
+.school_list_column ul {padding:5px; list-style:none; margin:20px 0 0 0;}
+.school_list_column ul li {padding:20px 0 35px 0; height:30px; border-bottom:1px dotted #ddd;}
+
+.school_list_column ul a:hover li {background-color:transparent;}
+ 
+
+.school_list_column a:hover h3 {
+color:#d98a00;
+text-decoration:none;
+} 
+
+.school_list_column h3.one_line{
+padding-top:6px;
+}
+
+.prior{
+display:block;
+font-size:.8em;
+font-weight:normal;
+}
+
+
+
+/*RIGHT STYLES*/
+#tdl_hp_right_side {
+  width: 320px;
+  float: left;
+}
+#tdl_hp_right_side a {
+  color: #7f0f00;
+  font-size:1.2em;
+}
+#tdl_hp_right_side a:hover {
+  text-decoration: underline;
+}
+
+#tdl_hp_right_side ul li {
+  margin: 0 10px 5px 0;
+  list-style:none;
+  text-indent:-15px;
+  margin-left:2px;
+}
+
+#tdl_hp_right_side ul li:before {
+  content: "\00BB";
+  padding: 0 5px 0 2px;
+  color: #7f0f00;
+  font-size: 1.3em;
+}
+
+
+.link_box_container {
+  width: 300px;
+  margin: 0 0 0 5px;
+  background: #f7faf3 url('/assets/img/common/gibson_gradient.png') top repeat-x;
+  border:1px solid #ccc;
+border-top:none;
+}
+
+
+.link_box_container h3{
+  color: #7f0f00;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0 5px 0;
+  padding: 2px 0 2px 0;
+  text-indent: 10px;
+  border-top: 3px solid;
+  border-bottom:1px solid #ccc;
+}
+
+.default_icon {
+  width: 24px;
+  height: 24px;
+  margin: -2px 0 0 -5px;
+  padding: 0;
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+.links_box_catalog{
+border:1px solid #ccc;
+float:right;
+margin:20px 15px 0 0;
+position:relative;
+width:300px;
+}
+.lb_catalog_text{
+display:block;
+width:200px;
+float:right;
+padding:15px 15px 0 0;
+font-size:1.2em;
+color:#555;
+font-weight:600;  
+}
+
+.lb_catalog_img img{width:75px; height:75px;padding-top:10px;}
+
+.links_box_catalog input{margin:20px 10px; width:180px;}
+
+
+
+
+
+/* INDEXES STYLE */
+
+
+/* LOGIN PAGE */
+
+.login_text{
+border-bottom:1px dotted #333;
+width:320px;
+display:block;
+position:relative;
+font-size:1.2em;
+color:#333;
+margin:5px 0 10px 50px;
+}
+
+.userpass_label{
+display:inline-block; 
+width:100px; 
+font-weight:bold; 
+text-align:right; 
+margin:0 10px 0 0;
+}
+        
+#best_experienced{
+margin:40px 0 0 110px;
+font-size:10px;
+border-top:1px dotted #aaa;
+padding:10px 0 0 0 ;
+vertical-align: bottom;
+height:40px;
+width:270px;
+float:left;
+}
+
+#best_experienced img{
+margin:0 3px 0 3px;
+vertical-align: bottom;
+outline: none;
+}
+
+
+
+/*  SUBMIT PAGE */
+
+
+/* TD Form Submit Style */
+#td_submit_form_wrapper{
+float:left;
+background-color:transparent;
+max-width:850px;
+margin:5px 15px 5px 15px;
+}
+
+#author_info{
+margin:0;
+padding:0;
+}
+
+
+#required_statement{
+margin:-10px 0 10px 20px;
+font-size:13px;
+color:red;
+
+}
+
+
+#required_statement img{
+verticle-align:top;
+padding:10px 0;
+}
+
+#main_alert{
+background-color:#eee;
+width:750px;
+margin:20px;
+}
+#main_alert p{
+color:red;
+font-size:14px;
+padding:10px;
+}
+
+.inform_error_msg{color:red; font-size:1.2em;}
+
+#td_submit_form_wrapper fieldset{
+    background-color:#eee;
+}
+.nopad{padding:0; margin: 0;}        
+
+.pdf_image{
+padding:0 20px;
+}
+
+.pdf_text{
+font-weight:bold; font-size:24px;line-height:30px; margin:15px 0 15px 0; float:left;display:block;
+} 
+
+.pdf_creation_help{
+font-size:12px;
+margin:0 0 15px 0; float:left;
+
+} 
+
+.upload_field{
+margin:0 50px 0 0;
+clear:right;
+}
+
+#questions{
+position:absolute;
+left:600px;
+top:14px;
+width:250px;
+background-color:#fff;
+}
+
+#questions h5{
+margin:0;
+padding:0;
+}
+
+#questions ul{
+list-style:none;
+margin:0 0 0 10px;
+}
+
+#questions .phone_hours{
+margin-left:10px;
+font-size:9px;
+}
+
+#questions .icon_phone{
+margin:0 0 0 2px;
+}
+
+
+
+
+#questions_section_4{
+position:absolute;
+left:480px;
+top:1700px;
+width:250px;
+
+}
+
+#questions_section_4 h5{
+margin:0;
+padding:0;
+}
+
+#questions_section_4 ul{
+list-style:none;
+margin:0 0 0 10px;
+}
+
+#questions_section_4 .phone_hours{
+margin-left:10px;
+font-size:9px;
+}
+
+#questions_section_4 .icon_phone{
+margin:0 0 0 2px;
+}
