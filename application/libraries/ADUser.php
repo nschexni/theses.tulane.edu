@@ -13,7 +13,8 @@ class ADUser {
 //		if(!$params['user']){
 //			throw new Exception('Must supply a username');
 //		}
-                //this is an array returned from the adLDAP class
+//		
+                //$params is an array returned from the adLDAP class
 		$this->username = $params['user'];
                 //create variable $user
                 $user = $this->username;

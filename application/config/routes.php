@@ -39,6 +39,7 @@
 */
 
 $route['default_controller'] = "home";
+$route['submit'] = "forms/td_submit";
 $route['404_override'] = '';
 
 

@@ -16,7 +16,7 @@
     
 <!--end:Main Container --></div>
 <div id="address">
-&copy; <?= date('Y');?> Howard-Tilton Memorial Library, Tulane University &nbsp;|&nbsp; 7001 Freret St., New Orleans, LA 70118 &nbsp;|&nbsp; (504) 865-5605 &nbsp;|&nbsp; <a href="mailto:htmlwebadmin@tulane.edu">Email Us</a>
+&copy; <?= date('Y');?> Howard-Tilton Memorial Library, Tulane University &nbsp;|&nbsp; 7001 Freret St., New Orleans, LA 70118 &nbsp;|&nbsp; (504) 865-5605 &nbsp;|&nbsp; <a href="mailto:digitallibrary@tulane.edu">Email Us</a>
 </div>
 <!--end:Page --></div>
 </body>        

@@ -175,7 +175,7 @@
                         <img src="<?=  base_url();?>assets/img/icons/icon_inbox.png" class="default_icon" alt="Submit your Thesis or Dissertation" /> 
                         Submit</h3>
                         <ul>
-                            <li><a href="<?=base_url();?>forms/td_submit">
+                            <li><a href="<?=base_url();?>submit">
                                     Submit Thesis | Dissertation</a></li>
                     </ul>
                 </div>
