@@ -8,7 +8,7 @@
                 <div class="tdl_search_form">
 
                     <div id="tdl_hp_search_everything">
-                        <form action="http://louisdl.louislibraries.org/cdm4/results.php"
+                        <form action="http://louisdl.louislibraries.org/cdm/search/collection/p16313coll12/searchterm/"
                           name="simplesearchform" 
                           method="get" 
                           name="displayCheckboxResults"
@@ -39,7 +39,7 @@
 
                     <div id="tdl_search_form_browse_line">
                         <div class="tdl_hp_browse">
-                            <form action="http://louisdl.louislibraries.org/cdm4/browse.php"
+                            <form action="http://louisdl.louislibraries.org/cdm/search/collection/p16313coll12"
                               name="browse" 
                               method="get" 
                               name="displayCheckboxResults"
@@ -49,18 +49,6 @@
                                        onmouseover="this.style.color='#d98a00';"
                                        onmouseout="this.style.color='#224568';" 
                                 />
-                                <input type="hidden" name="CISORESTMP" value="results.php" />
-                                <input type="hidden" name="CISOVIEWTMP" value="item_viewer.php" />
-                                <input type="hidden" name="CISOSORT" value="date|r" />
-                                <input type="hidden" name="CISOMODE" value="grid" />
-                                <input type="hidden" name="CISOGRID" value="thumbnail,A,1;title,A,1;creato,A,0;date,A,0;descri,200,0;100;date,creato,none,none,none" />
-                                <input type="hidden" name="CISOBIB" value="discla,A,1,N;link,A,0,N;title,200,0,N;none,A,0,N;none,A,0,N;20;relevancy,none,none,none,none" />
-                                <input type="hidden" name="CISOTHUMB" value="20%20(4x5);title,none,none,none,none" />
-                                <input type="hidden" name="CISOTITLE" value="20;title,none,none,none,none" />
-                                <input type="hidden" name="CISOHIERA" value="20;creato,title,none,none,none" />
-                                <input type="hidden" name="CISOSUPPRESS" value="0" />
-                                <input type="hidden" name="CISOTYPE" value="browse" />
-                                <input type="hidden" name="CISOROOT" value="/p16313coll12" />
                             </form>      
                         </div>
                     </div>
